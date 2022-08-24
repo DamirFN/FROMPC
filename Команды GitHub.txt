@@ -147,6 +147,13 @@ git push origin master
 
 https://github.com/<your_name>/<remote_repository_name>
 
+Создание репозитория локального путем клонирования ветки удаленного
+репозитория
+
+git clone https://github.com/<your_name>/
+<remote_repository_name> -b ... clonebranch* и название ветки удаленного
+репозитория
+
 ---------------------------------------------------------
 ОСНОВНЫЕ КОМАНДЫ ДЛЯ РАБОТЫ С ТЕРМИНАЛО GIT HUB
 Создание рабочей области: 
