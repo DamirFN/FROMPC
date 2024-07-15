@@ -8,7 +8,7 @@ geldwechsel = {'💸 Рубль': 'RUB',
                '💵 Доллар': 'USD',
                '💶 Евро': 'EUR'}
 
-bot = telebot.TeleBot('5432695927:AAHGBTb0ljEPsxL_PusuPOp9XrIMPymsZbo')
+bot = telebot.TeleBot('5886981757:AAFAVKKKMAZdBNBsXPhavYpBFtkTwMMswXo')
 
 @bot.message_handler(commands=['start'])    # ответ на комманды с обращение по имени пользователя
 def repeat(message: telebot.types.Message):
